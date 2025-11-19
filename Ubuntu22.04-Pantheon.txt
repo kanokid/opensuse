@@ -71,16 +71,16 @@ Update All its time =]
 
 sudo apt update && sudo apt upgrade
 
---------------------------------
+#--------------------------------
 
-Install programs
+# Install programs
 
 sudo apt install bash git npm wget curl nano sudo pipx dracut -y
 sudo apt install gdm3* -y
 sudo apt install gdm* -y
 sudo systemctl set-default graphical
 
---------------------------------
+# --------------------------------
 
 Install this small program.
 
@@ -91,34 +91,34 @@ Test by just reboot terminal and copy and paste: hyfetch
 
 --------------------------------
 
-Paste This in terminal - Remove Acpi Errors from Ubuntu 22.04
+#Paste This in terminal - Remove Acpi Errors from Ubuntu 22.04
 
 sudo ln -s /dev/null /etc/systemd/system/acpid.service
 sudo ln -s /dev/null /etc/systemd/system/acpid.path
 
---------------------------------
+#--------------------------------
 
-Install Chrome
+#Install Chrome
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
--------------------------------
+#-------------------------------
 
-Install Blanket if you Want! - Listen to Sounds =]
+# Install Blanket if you Want! - Listen to Sounds =]
 
-wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+# wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+# sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
 
--------------------------------
+#-------------------------------
 
-Install firefox - Saves time under installation
+#Install firefox - Saves time under installation
 
-sudo snap install firefox 
+#sudo snap install firefox 
 
--------------------------------
+#-------------------------------
 
-Time to Install Desktop - Elementary / Pantheon
+# Time to Install Desktop - Elementary / Pantheon
 
 sudo apt update
 sudo apt upgrade
@@ -137,24 +137,24 @@ sudo apt install task-gnome-desktop
 
 Reboot Linux... Reboot Linux... Reboot Linux... Ubuntu 22.04
 
---------------------------------
+#--------------------------------
 
-Config GWSL and start from there - GWSL Linux Shell
+# Config GWSL and start from there - GWSL Linux Shell
 
-      " Take an extra Reboot " 
+#      " Take an extra Reboot " 
 
---------------------------------
+#--------------------------------
 
-Copy and Paste in Terminal: 
+# Copy and Paste in Terminal: 
 
 xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
 
---------------------------------
+#--------------------------------
 
-Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
+#Copy this and paste in terminal: sudo nano ~/.bash_ubuntu_desktop
 
-Then add this script to terminal
+#Then add this script to terminal
 
 export XDG_SESSION_TYPE=x11
 export XDG_SESSION_CLASS=user
@@ -168,7 +168,7 @@ Reboot Reboot Reboot Reboot Reboot Reboot - Ubuntu 22.04
 
 --------------------------------
 
-Install this script - just paste all in terminal - Follow instructions.
+# Install this script - just paste all in terminal - Follow instructions.
 
 git clone https://github.com/DamionGans/ubuntu-wsl2-systemd-script.git
 cd ubuntu-wsl2-systemd-script/
@@ -193,3 +193,4 @@ Paste in terminal: io.elementary.wingpanel & plank & gala
 Regards Mattias Vinberg - Elementary - Pantheon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
 
 --------------------------------
+
