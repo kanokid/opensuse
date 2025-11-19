@@ -90,13 +90,13 @@ https://github.com/vinberg88/opensuse
 
 ------------------------------
 
-Update All after install - Ubuntu 25.10 Questing Quokka
+# Update All after install - Ubuntu 25.10 Questing Quokka
 
 sudo apt update && sudo apt upgrade -y
 
---------------------------
+# --------------------------
 
-Install some Basic Programs for Ubuntu 25.10 and Gnome Desktop.
+# Install some Basic Programs for Ubuntu 25.10 and Gnome Desktop.
 
 sudo apt install ibus bash git npm wget curl pipx dracut dbus* -y
 sudo apt install gdm3* -y
@@ -105,67 +105,67 @@ sudo apt install xorg* -y
 sudo apt install daemonize -y
 sudo systemctl set-default graphical
 
-----------------------------------------------
+# ----------------------------------------------
 
-Install this small program for Hyfetch.
+# Install this small program for Hyfetch.
 
 sudo apt install hyfetch fastfetch -y
 
-To test type: hyfetch
+# To test type: hyfetch
 
-Like Noefetch but more gay =]
+# Like Noefetch but more gay =]
 
-----------------------------------------------
+#----------------------------------------------
 
-Paste in Terminal for Ubuntu and Gnome 48.
+# Paste in Terminal for Ubuntu and Gnome 48.
 
 xdg-user-dirs-update
 sudo systemctl set-default multi-user.target
 
-----------------------------------
+#----------------------------------
 
-Install Chrome Browser
+# Install Chrome Browser
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb -y
 
-----------------------------------
+#----------------------------------
 
-Install blanket - Sounds - Improve focus and increase your productivity by listening to different ambient sounds
+#Install blanket - Sounds - Improve focus and increase your productivity by listening to different ambient sounds
 
-wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
-sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
+#wget https://launchpad.net/~apandada1/+archive/ubuntu/blanket/+files/blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb
+#sudo apt install ./blanket_0.6.0-0~daily~202208090401~23edaaa~ubuntu22.04.1_all.deb -y
 
-----------------------------------
+#----------------------------------
 
-Install Visual studio Code - Microsoft - 2025
+#Install Visual studio Code - Microsoft - 2025
 
-sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" |sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
-rm -f packages.microsoft.gpg
+#sudo apt-get install wget gpg
+#wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+#sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+#echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" #|sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+#rm -f packages.microsoft.gpg
 
-sudo apt install apt-transport-https
-sudo apt update
-sudo apt install code
+#sudo apt install apt-transport-https
+#sudo apt update
+#sudo apt install code
 
-----------------------------------
+#----------------------------------
 
-Install this - will make stuff faster when you install GNOME 48.
+#Install this - will make stuff faster when you install GNOME 48.
 
-sudo snap install firefox
+#sudo snap install firefox
 sudo snap install thunderbird
 
-----------------------------------
+#----------------------------------
 
-Install Gimp and Libreoffice some other programs for Ubuntu 25.10 Questing Quokka
+# Install Gimp and Libreoffice some other programs for Ubuntu 25.10 Questing Quokka
 
 sudo apt install gimp libreoffice gnome-tweaks gnome-extensions* -y
 
-----------------------------------
+#----------------------------------
 
-Time to install Gnome 48 Desktop for Ubuntu 25.10 Questing Quokka 
+#Time to install Gnome 48 Desktop for Ubuntu 25.10 Questing Quokka 
 
 sudo apt install ubuntu-desktop -y
 
@@ -202,15 +202,15 @@ Reboot Ubuntu 25.10 - Reboot Ubuntu 25.10 Questing Quokka - Reboot Ubuntu 25.10
 
 ----------------------------------------------
 
-NOTE - FIRST START X410 THEN YOU START UBUNTU 25.10 VIA TERMINAL
+#NOTE - FIRST START X410 THEN YOU START UBUNTU 25.10 VIA TERMINAL
 
-Now we are ready to start Gnome 48 and Ubuntu 25.10 - Paste One by One!
+#Now we are ready to start Gnome 48 and Ubuntu 25.10 - Paste One by One!
 
-Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 
-Paste in terminal: . ~/.bash_ubuntu_desktop
+. ~/.bash_ubuntu_desktop
 
-Paste in terminal: dbus-launch gnome-session
+dbus-launch gnome-session
 
 ----------------------------------------------
 
@@ -233,3 +233,4 @@ Paste in terminal: dbus-launch gnome-session
 Regards Mattias Vinberg - SwEden - GNOME - Ubuntu 25.10 - Questing Quokka - Linux - WSL - X410 - WINDOWS 11 - 2025
 
 ----------------------------------------------
+
