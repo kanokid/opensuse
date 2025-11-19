@@ -71,16 +71,16 @@ Update All its time =]
 
 sudo apt update && sudo apt upgrade
 
---------------------------------
+#--------------------------------
 
-Install programs
+# Install programs
 
 sudo apt install bash git npm wget curl nano sudo pipx dracut -y
 sudo apt install gdm3* -y
 sudo apt install gdm* -y
 sudo systemctl set-default graphical
 
---------------------------------
+# --------------------------------
 
 Install this small program.
 
@@ -193,3 +193,4 @@ Paste in terminal: io.elementary.wingpanel & plank & gala
 Regards Mattias Vinberg - Elementary - Pantheon - WSL - GWSL - Windows 11 - Linux - 2024 - SWEDEN!
 
 --------------------------------
+
